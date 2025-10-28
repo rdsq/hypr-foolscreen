@@ -2,7 +2,7 @@
 
 Fool apps into thinking they are fullscreen, while actually they are not *(evil laughter)*
 
-This is actually a built in feature of Hyprland, you just call:
+This is actually a built in [feature](https://wiki.hypr.land/Configuring/Dispatchers/#fullscreenstate) of Hyprland, you just call:
 
 ```sh
 hyprctl dispatch fullscreenstate <real state> <what app thinks>
@@ -20,6 +20,6 @@ Then, you can map it in Hyprland config to something like
 bind = SUPER, F, exec, /where/you/saved/hypr-foolscreen.py
 ```
 
-And it's done! Enjoy fooling app
+And it's done! Enjoy fooling apps
 
-Seriously though, you can use this to make a floating player in YouTube or something, it's useful
+Seriously though, you can use this to make a floating YouTube player or something, it's useful
